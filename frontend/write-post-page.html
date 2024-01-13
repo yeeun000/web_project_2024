@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Write Post Page</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- 헤더 부분은 필요에 따라 추가하세요. -->
+        <div class="header-top">
+            <a href="login.html">로그인</a>
+            <a href="register.html">회원가입</a>
+        </div>
+        <div class="header-main">
+            <h1 class="header-title"><a href="index.html">게시게시판</a></h1>
+        </div>
+    </header>
+
+    <nav>
+        <!-- 네비게이션 부분은 필요에 따라 추가하세요. -->
+            <a href="index.html">홈</a> | 
+            <a href="information_board.html">정보게시판</a> | 
+            <a href="free-board.html">자유게시판</a> | 
+            <a href="notice-board.html">공지사항</a>
+    </nav>
+
+    <section id="upload_content">
+        <!-- 글 쓰기 양식 -->
+        <form>
+            <div id="write-post-top">
+                <select id="board-select" name="board">
+                    <option value="free-board">자유게시판</option>
+                    <option value="information_board">정보게시판</option>
+                    <!-- 필요한 만큼 게시판 옵션을 추가 -->
+                </select>
+                <input type="text" id="title" name="title" placeholder="제목을 입력하세요" required>
+
+            </div>            
+            <label for="content">내용:</label>
+            <textarea id="content_area" name="content" rows="8" required></textarea>
+
+            <button id="upload_content_button" type="submit">글 올리기</button>
+        </form>
+    </section>
+
+    <footer>
+        <!-- 푸터 부분은 필요에 따라 추가하세요. -->
+    © 2023 게시게시판. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
