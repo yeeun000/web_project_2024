@@ -172,7 +172,7 @@ footer {
     margin-bottom: 10px;
 }
 
-#register-section button {
+#submit_button {
     padding: 10px;
     background-color: #ffcc00;
     color: #333;
@@ -181,8 +181,20 @@ footer {
     cursor: pointer;
 }
 
-#register-section button:hover {
+#submit_button:hover {
     background-color: #e6b800;
+}
+
+#check_button {
+    padding: 10px;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#check_button:hover {
+    background-color: #d4d4d4;
 }
 
 #register-section p {
