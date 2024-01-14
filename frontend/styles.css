@@ -288,6 +288,11 @@ label {
     box-sizing: border-box;
 }
 
+#upload_container {
+    display: flex;
+    justify-content: space-between;
+}
+
 #upload_content_button {
     padding: 8px 10px;
     background-color: #ffcc00;
@@ -295,6 +300,7 @@ label {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    align-self: flex-end;
 }
 
 #upload_content_button:hover {
