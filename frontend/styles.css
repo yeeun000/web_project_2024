@@ -242,6 +242,87 @@ article:hover {
     transform: scale(1.02);
     background-color: #f0f0f0; /* 마우스 호버 시 색상 변경 */
 }
+/*상세정보*/
+.text{
+    margin-top: 5px;
+    color: #333;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text .title{
+    font-size: 30px;
+    margin-bottom: 5px;
+    
+}
+.text .content{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+/*댓글*/
+.comment_form {
+    margin-top: 20px;
+}
+.comment_form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'yangjin', sans-serif;
+}
+.comment_form textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    resize: vertical;
+}
+
+.comment_form button {
+    border: none;
+    padding: 8px 12px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: 'yangjin', sans-serif;
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 10px;
+}
+
+.comment_list {
+    margin-top: 80px;
+}
+
+.comment_list h2 {
+    font-size: 20px;
+    font-family: 'yangjin', sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+.comment_list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comment_list li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment_info {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.comment_text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
 
 /*글쓰기버튼*/
 .write-post-btn {
